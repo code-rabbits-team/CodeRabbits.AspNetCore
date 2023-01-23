@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeRabbits.AspNetCore.Razor.TagHelpers", "Razor.TagHelpers\src\CodeRabbits.AspNetCore.Razor.TagHelpers.csproj", "{71634D62-B0A1-481F-A566-FB7C803770EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeRabbits.AspNetCore.Razor.TagHelpers.Test", "Razor.TagHelpers\test\CodeRabbits.AspNetCore.Razor.TagHelpers.Test.csproj", "{7F5B0381-3F5A-401E-9325-409402970175}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeRabbits.AspNetCore.Authentication.Kakao", "Authentication\Kakao\src\CodeRabbits.AspNetCore.Authentication.Kakao.csproj", "{C43D8DB5-6F0F-46AE-9ABE-5E5B5D815D1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeRabbits.AspNetCore.Authentication.Naver", "Authentication\Naver\src\CodeRabbits.AspNetCore.Authentication.Naver.csproj", "{CC20234C-554E-4401-9B5E-32B2DAAE753C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeRabbits.AspNetCore.Authentication.OAuth", "Authentication\OAuth\src\CodeRabbits.AspNetCore.Authentication.OAuth.csproj", "{8459A61E-869D-4B49-9DA1-D84936F94F41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD8A3393-BD02-413E-BD52-A246D8D9689E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eng", "eng", "{4153DD3D-67DB-4E59-B51A-BB81AAA76E1F}"
+	ProjectSection(SolutionItems) = preProject
+		SharedFramework.External.props = SharedFramework.External.props
+		eng\Versions.props = eng\Versions.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71634D62-B0A1-481F-A566-FB7C803770EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71634D62-B0A1-481F-A566-FB7C803770EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71634D62-B0A1-481F-A566-FB7C803770EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71634D62-B0A1-481F-A566-FB7C803770EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5B0381-3F5A-401E-9325-409402970175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5B0381-3F5A-401E-9325-409402970175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5B0381-3F5A-401E-9325-409402970175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5B0381-3F5A-401E-9325-409402970175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43D8DB5-6F0F-46AE-9ABE-5E5B5D815D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43D8DB5-6F0F-46AE-9ABE-5E5B5D815D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43D8DB5-6F0F-46AE-9ABE-5E5B5D815D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43D8DB5-6F0F-46AE-9ABE-5E5B5D815D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC20234C-554E-4401-9B5E-32B2DAAE753C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC20234C-554E-4401-9B5E-32B2DAAE753C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC20234C-554E-4401-9B5E-32B2DAAE753C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC20234C-554E-4401-9B5E-32B2DAAE753C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8459A61E-869D-4B49-9DA1-D84936F94F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8459A61E-869D-4B49-9DA1-D84936F94F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8459A61E-869D-4B49-9DA1-D84936F94F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8459A61E-869D-4B49-9DA1-D84936F94F41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4153DD3D-67DB-4E59-B51A-BB81AAA76E1F} = {CD8A3393-BD02-413E-BD52-A246D8D9689E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86B4BA2F-35C0-4C57-8FAD-DF4E26B16972}
+	EndGlobalSection
+EndGlobal

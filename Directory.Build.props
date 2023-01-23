@@ -1,0 +1,31 @@
+<Project>
+  <PropertyGroup Label="Version settings">
+    <DefaultNetCoreTargetFramework>net7.0</DefaultNetCoreTargetFramework>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Manual">
+    <CoverletCollectorVersion>3.1.2</CoverletCollectorVersion>
+    <MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion>7.0.2</MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion>
+    <MicrosoftNETTestSdkVersion>17.3.2</MicrosoftNETTestSdkVersion>
+    <XunitVersion>2.4.2</XunitVersion>
+    <XunitRunnerVisualstudioVersion>2.4.5</XunitRunnerVisualstudioVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Dependencies from dotnet/runtime -->
+    <PackageVersion Include="coverlet.collector"                                           Version="$(CoverletCollectorVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect"            Version="$(MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion)" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk"                                       Version="$(MicrosoftNETTestSdkVersion)" />
+    <PackageVersion Include="xunit"                                                        Version="$(XunitVersion)" />
+    <PackageVersion Include="xunit.runner.visualstudio"                                    Version="$(XunitRunnerVisualstudioVersion)" />
+  </ItemGroup>
+</Project>
