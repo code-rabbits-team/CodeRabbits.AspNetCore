@@ -22,7 +22,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eng", "eng", "{4153DD3D-67DB-4E59-B51A-BB81AAA76E1F}"
 	ProjectSection(SolutionItems) = preProject
 		SharedFramework.External.props = SharedFramework.External.props
-		eng\Versions.props = eng\Versions.props
 	EndProjectSection
 EndProject
 Global
