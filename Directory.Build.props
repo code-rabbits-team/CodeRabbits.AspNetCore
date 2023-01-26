@@ -1,4 +1,8 @@
 <Project>
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  
   <PropertyGroup Label="Version settings">
     <DefaultNetCoreTargetFramework>net7.0</DefaultNetCoreTargetFramework>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
